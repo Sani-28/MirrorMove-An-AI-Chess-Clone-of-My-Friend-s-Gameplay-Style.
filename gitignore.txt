@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# Data & models — too large / private, do NOT commit
+*.jsonl
+*.csv
+*.pgn
+*.zip
+chess_lora/
+checkpoints/
+*.safetensors
+*.pt
+*.gguf
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
